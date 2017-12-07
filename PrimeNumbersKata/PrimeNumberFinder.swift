@@ -8,4 +8,8 @@
 
 class PrimeNumberFinder {
     
+    func getPrimeFactors(forNumber number: Int) -> String {
+        return ""
+    }
+    
 }
