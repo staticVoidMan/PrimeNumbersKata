@@ -9,6 +9,10 @@
 class PrimeNumberFinder {
     
     func getPrimeFactors(forNumber number: Int) -> String {
+        if number == 2 {
+            return "2"
+        }
+        
         return ""
     }
     
