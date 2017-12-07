@@ -13,6 +13,8 @@
 		F24FE37D1FD976B100BFB5A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24FE37C1FD976B100BFB5A3 /* Assets.xcassets */; };
 		F24FE3801FD976B100BFB5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24FE37E1FD976B100BFB5A3 /* LaunchScreen.storyboard */; };
 		F24FE38B1FD976B100BFB5A3 /* PrimeNumbersKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24FE38A1FD976B100BFB5A3 /* PrimeNumbersKataTests.swift */; };
+		F24FE3961FD9787700BFB5A3 /* PrimeNumberFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24FE3951FD9787700BFB5A3 /* PrimeNumberFinder.swift */; };
+		F24FE3971FD9787700BFB5A3 /* PrimeNumberFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24FE3951FD9787700BFB5A3 /* PrimeNumberFinder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		F24FE3861FD976B100BFB5A3 /* PrimeNumbersKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeNumbersKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24FE38A1FD976B100BFB5A3 /* PrimeNumbersKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumbersKataTests.swift; sourceTree = "<group>"; };
 		F24FE38C1FD976B100BFB5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24FE3951FD9787700BFB5A3 /* PrimeNumberFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberFinder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				F24FE37C1FD976B100BFB5A3 /* Assets.xcassets */,
 				F24FE37E1FD976B100BFB5A3 /* LaunchScreen.storyboard */,
 				F24FE3811FD976B100BFB5A3 /* Info.plist */,
+				F24FE3951FD9787700BFB5A3 /* PrimeNumberFinder.swift */,
 			);
 			path = PrimeNumbersKata;
 			sourceTree = "<group>";
@@ -200,6 +204,7 @@
 			files = (
 				F24FE3781FD976B100BFB5A3 /* ViewController.swift in Sources */,
 				F24FE3761FD976B100BFB5A3 /* AppDelegate.swift in Sources */,
+				F24FE3961FD9787700BFB5A3 /* PrimeNumberFinder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24FE3971FD9787700BFB5A3 /* PrimeNumberFinder.swift in Sources */,
 				F24FE38B1FD976B100BFB5A3 /* PrimeNumbersKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

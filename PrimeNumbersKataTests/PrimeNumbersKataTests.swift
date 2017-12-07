@@ -15,4 +15,8 @@ class PrimeNumbersKataTests: XCTestCase {
         
     }
     
+    func testCanCreatePrimeNumberFinder() {
+        let primeNumberFinder = PrimeNumberFinder()
+    }
+    
 }
