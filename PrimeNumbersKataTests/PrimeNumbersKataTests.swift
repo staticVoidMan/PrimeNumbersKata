@@ -11,4 +11,8 @@ import XCTest
 
 class PrimeNumbersKataTests: XCTestCase {
     
+    func testCanDoNothing() {
+        
+    }
+    
 }
