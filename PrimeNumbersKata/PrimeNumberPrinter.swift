@@ -20,15 +20,14 @@ class PrimeNumberPrinter {
             debugPrint("\(number) is not a prime number")
         }
         else {
-            if number == 2 {
+            var number = number
+            
+            while number % 2 == 0 {
                 arrPrimeFactors.append(2)
+                number /= 2
             }
             if number == 3 {
                 arrPrimeFactors.append(3)
-            }
-            if number == 4 {
-                arrPrimeFactors.append(2)
-                arrPrimeFactors.append(2)
             }
         }
         
