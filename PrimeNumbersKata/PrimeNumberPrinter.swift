@@ -15,6 +15,10 @@ class PrimeNumberPrinter {
             || number == 3 {
             arrPrimeFactors.append(number)
         }
+        else if number == 4 {
+            arrPrimeFactors.append(2)
+            arrPrimeFactors.append(2)
+        }
         
         return arrPrimeFactors
     }
