@@ -8,11 +8,15 @@
 
 class PrimeNumberPrinter {
     
+    fileprivate func isNotAPrimeNumber(_ number: Int) -> Bool {
+        return number == 0
+            || number == 1
+    }
+    
     func getPrimeFactors(forNumber number: Int) -> [Int] {
         var arrPrimeFactors = [Int]()
         
-        if number == 0
-            || number == 1 {
+        if isNotAPrimeNumber(number) {
             debugPrint("\(number) is not a prime number")
         }
         else if number == 2 {
