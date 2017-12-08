@@ -11,6 +11,10 @@ import XCTest
 
 class PrimeNumbersKataTests: XCTestCase {
     
+    lazy var primeNumberPrinter: PrimeNumberPrinter = {
+        return PrimeNumberPrinter()
+    }()
+    
 //    func testCanDoNothing() {}
     
 //    func testCanCreatePrimeNumberFinder() {
@@ -18,20 +22,17 @@ class PrimeNumbersKataTests: XCTestCase {
 //    }
     
     func testCanAcceptInputNumber() {
-        let primeNumberFinder = PrimeNumberPrinter()
-        let string = primeNumberFinder.getPrimeFactors(forNumber: 0)
+        let string = primeNumberPrinter.getPrimeFactors(forNumber: 0)
         XCTAssertEqual(string, "")
     }
     
     func testCanGetPrimeFactorsForNumberTwo() {
-        let primeNumberFinder = PrimeNumberPrinter()
-        let string = primeNumberFinder.getPrimeFactors(forNumber: 2)
+        let string = primeNumberPrinter.getPrimeFactors(forNumber: 2)
         XCTAssertEqual(string, "2")
     }
     
     func testCanGetPrimeFactorsForNumberThree() {
-        let primeNumberFinder = PrimeNumberPrinter()
-        let string = primeNumberFinder.getPrimeFactors(forNumber: 3)
+        let string = primeNumberPrinter.getPrimeFactors(forNumber: 3)
         XCTAssertEqual(string, "3")
     }
     
