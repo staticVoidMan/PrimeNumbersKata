@@ -66,6 +66,11 @@ class PrimeNumbersKataTests: XCTestCase {
         XCTAssertEqual(arrPrimeNumbers, [2, 3])
     }
     
+    func testCanGetPrimeFactorsForNumberSeven() {
+        let arrPrimeNumbers = primeNumberPrinter.getPrimeFactors(forNumber: 7)
+        XCTAssertEqual(arrPrimeNumbers, [7])
+    }
+    
     func testCanGetPrimeFactorsForNumberEigth() {
         let arrPrimeNumbers = primeNumberPrinter.getPrimeFactors(forNumber: 8)
         XCTAssertEqual(arrPrimeNumbers, [2, 2, 2])

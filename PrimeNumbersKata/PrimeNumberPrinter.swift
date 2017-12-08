@@ -32,6 +32,9 @@ class PrimeNumberPrinter {
             if number == 5 {
                 arrPrimeFactors.append(5)
             }
+            if number == 7 {
+                arrPrimeFactors.append(7)
+            }
         }
         
         return arrPrimeFactors
