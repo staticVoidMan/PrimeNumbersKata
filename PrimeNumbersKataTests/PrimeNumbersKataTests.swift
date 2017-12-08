@@ -21,10 +21,10 @@ class PrimeNumbersKataTests: XCTestCase {
 //        let _ = PrimeNumberFinder()
 //    }
     
-    func testCanAcceptInputNumber() {
-        let arrPrimeNumbers = primeNumberPrinter.getPrimeFactors(forNumber: 0)
-        XCTAssertEqual(arrPrimeNumbers, [])
-    }
+//    func testCanAcceptInputNumber() {
+//        let arrPrimeNumbers = primeNumberPrinter.getPrimeFactors(forNumber: 0)
+//        XCTAssertEqual(arrPrimeNumbers, [])
+//    }
     
     func testCanGetPrimeFactorsForNumberTwo() {
         let arrPrimeNumbers = primeNumberPrinter.getPrimeFactors(forNumber: 2)
