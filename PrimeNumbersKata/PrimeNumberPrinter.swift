@@ -8,15 +8,17 @@
 
 class PrimeNumberPrinter {
     
-    func getPrimeFactors(forNumber number: Int) -> String {
+    func getPrimeFactors(forNumber number: Int) -> [Int] {
+        var arrPrimeFactors = [Int]()
+        
         if number == 2 {
-            return "2"
+            arrPrimeFactors.append(number)
         }
         else if number == 3 {
-            return "3"
+            arrPrimeFactors.append(number)
         }
         
-        return ""
+        return arrPrimeFactors
     }
     
 }

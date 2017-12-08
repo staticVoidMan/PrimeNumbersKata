@@ -22,18 +22,18 @@ class PrimeNumbersKataTests: XCTestCase {
 //    }
     
     func testCanAcceptInputNumber() {
-        let string = primeNumberPrinter.getPrimeFactors(forNumber: 0)
-        XCTAssertEqual(string, "")
+        let arrPrimeNumbers = primeNumberPrinter.getPrimeFactors(forNumber: 0)
+        XCTAssertEqual(arrPrimeNumbers, [])
     }
     
     func testCanGetPrimeFactorsForNumberTwo() {
-        let string = primeNumberPrinter.getPrimeFactors(forNumber: 2)
-        XCTAssertEqual(string, "2")
+        let arrPrimeNumbers = primeNumberPrinter.getPrimeFactors(forNumber: 2)
+        XCTAssertEqual(arrPrimeNumbers, [2])
     }
     
     func testCanGetPrimeFactorsForNumberThree() {
-        let string = primeNumberPrinter.getPrimeFactors(forNumber: 3)
-        XCTAssertEqual(string, "3")
+        let arrPrimeNumbers = primeNumberPrinter.getPrimeFactors(forNumber: 3)
+        XCTAssertEqual(arrPrimeNumbers, [3])
     }
     
 }
