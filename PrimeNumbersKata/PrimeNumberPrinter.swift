@@ -19,15 +19,17 @@ class PrimeNumberPrinter {
         if isNotAPrimeNumber(number) {
             debugPrint("\(number) is not a prime number")
         }
-        else if number == 2 {
-            arrPrimeFactors.append(2)
-        }
-        else if number == 3 {
-            arrPrimeFactors.append(3)
-        }
-        else if number == 4 {
-            arrPrimeFactors.append(2)
-            arrPrimeFactors.append(2)
+        else {
+            if number == 2 {
+                arrPrimeFactors.append(2)
+            }
+            if number == 3 {
+                arrPrimeFactors.append(3)
+            }
+            if number == 4 {
+                arrPrimeFactors.append(2)
+                arrPrimeFactors.append(2)
+            }
         }
         
         return arrPrimeFactors
