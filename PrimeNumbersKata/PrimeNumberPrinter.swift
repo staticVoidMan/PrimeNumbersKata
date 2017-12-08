@@ -26,8 +26,9 @@ class PrimeNumberPrinter {
                 arrPrimeFactors.append(2)
                 number /= 2
             }
-            if number == 3 {
+            while number % 3 == 0 {
                 arrPrimeFactors.append(3)
+                number /= 3
             }
             if number == 5 {
                 arrPrimeFactors.append(5)
