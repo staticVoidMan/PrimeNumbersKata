@@ -31,4 +31,10 @@ class PrimeNumbersKataTests: XCTestCase {
         XCTAssertEqual(string, "2")
     }
     
+    func testCanGetPrimeFactorsForNumberThree() {
+        let primeNumberFinder = PrimeNumberFinder()
+        let string = primeNumberFinder.getPrimeFactors(forNumber: 3)
+        XCTAssertEqual(string, "3")
+    }
+    
 }
