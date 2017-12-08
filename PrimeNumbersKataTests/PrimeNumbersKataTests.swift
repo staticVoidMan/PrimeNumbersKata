@@ -18,19 +18,19 @@ class PrimeNumbersKataTests: XCTestCase {
 //    }
     
     func testCanAcceptInputNumber() {
-        let primeNumberFinder = PrimeNumberFinder()
+        let primeNumberFinder = PrimeNumberPrinter()
         let string = primeNumberFinder.getPrimeFactors(forNumber: 0)
         XCTAssertEqual(string, "")
     }
     
     func testCanGetPrimeFactorsForNumberTwo() {
-        let primeNumberFinder = PrimeNumberFinder()
+        let primeNumberFinder = PrimeNumberPrinter()
         let string = primeNumberFinder.getPrimeFactors(forNumber: 2)
         XCTAssertEqual(string, "2")
     }
     
     func testCanGetPrimeFactorsForNumberThree() {
-        let primeNumberFinder = PrimeNumberFinder()
+        let primeNumberFinder = PrimeNumberPrinter()
         let string = primeNumberFinder.getPrimeFactors(forNumber: 3)
         XCTAssertEqual(string, "3")
     }

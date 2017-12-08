@@ -6,7 +6,7 @@
 //  Copyright © 2017 svmLogics. All rights reserved.
 //
 
-class PrimeNumberFinder {
+class PrimeNumberPrinter {
     
     func getPrimeFactors(forNumber number: Int) -> String {
         if number == 2 {
