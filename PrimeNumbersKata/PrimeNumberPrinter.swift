@@ -21,20 +21,14 @@ class PrimeNumberPrinter {
         }
         else {
             var number = number
+            var divisor = 2
             
-            while number % 2 == 0 {
-                arrPrimeFactors.append(2)
-                number /= 2
-            }
-            while number % 3 == 0 {
-                arrPrimeFactors.append(3)
-                number /= 3
-            }
-            if number == 5 {
-                arrPrimeFactors.append(5)
-            }
-            if number == 7 {
-                arrPrimeFactors.append(7)
+            while number != 1 {
+                while number % divisor == 0 {
+                    arrPrimeFactors.append(divisor)
+                    number /= divisor
+                }
+                divisor += 1
             }
         }
         
