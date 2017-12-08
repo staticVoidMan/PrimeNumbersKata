@@ -11,9 +11,15 @@ class PrimeNumberPrinter {
     func getPrimeFactors(forNumber number: Int) -> [Int] {
         var arrPrimeFactors = [Int]()
         
-        if number == 2
-            || number == 3 {
-            arrPrimeFactors.append(number)
+        if number == 0
+            || number == 1 {
+            debugPrint("\(number) is not a prime number")
+        }
+        else if number == 2 {
+            arrPrimeFactors.append(2)
+        }
+        else if number == 3 {
+            arrPrimeFactors.append(3)
         }
         else if number == 4 {
             arrPrimeFactors.append(2)

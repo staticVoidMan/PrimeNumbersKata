@@ -26,6 +26,21 @@ class PrimeNumbersKataTests: XCTestCase {
 //        XCTAssertEqual(arrPrimeNumbers, [])
 //    }
     
+    func testDoesNotProcessInvalidNumbers() {
+        func doesNotProcessPrimeFactorsForNumberZero() {
+            let arrPrimeNumbers = primeNumberPrinter.getPrimeFactors(forNumber: 0)
+            XCTAssertEqual(arrPrimeNumbers, [])
+        }
+        
+        func doesNotProcessPrimeFactorsForNumberOne() {
+            let arrPrimeNumbers = primeNumberPrinter.getPrimeFactors(forNumber: 1)
+            XCTAssertEqual(arrPrimeNumbers, [])
+        }
+        
+        doesNotProcessPrimeFactorsForNumberZero()
+        doesNotProcessPrimeFactorsForNumberOne()
+    }
+    
     func testCanGetPrimeFactorsForNumberTwo() {
         let arrPrimeNumbers = primeNumberPrinter.getPrimeFactors(forNumber: 2)
         XCTAssertEqual(arrPrimeNumbers, [2])
