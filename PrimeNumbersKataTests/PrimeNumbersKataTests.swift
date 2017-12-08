@@ -11,13 +11,11 @@ import XCTest
 
 class PrimeNumbersKataTests: XCTestCase {
     
-    func testCanDoNothing() {
-        
-    }
+//    func testCanDoNothing() {}
     
-    func testCanCreatePrimeNumberFinder() {
-        let primeNumberFinder = PrimeNumberFinder()
-    }
+//    func testCanCreatePrimeNumberFinder() {
+//        let _ = PrimeNumberFinder()
+//    }
     
     func testCanAcceptInputNumber() {
         let primeNumberFinder = PrimeNumberFinder()
